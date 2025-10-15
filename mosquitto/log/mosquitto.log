@@ -1135,3 +1135,310 @@ To fix this, use `chmod 0700 /mosquitto/config/passwd`.
 1760471544: New connection from 172.20.0.6:39108 on port 1883.
 1760471544: New client connected from 172.20.0.6:39108 as nodered3431497da9ad4fe8 (p2, c1, k60, u'aluno').
 1760473342: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1760479629: mosquitto version 2.0.22 starting
+1760479629: Config loaded from /mosquitto/config/mosquitto.conf.
+1760479629: Warning: File /mosquitto/config/passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/passwd`.
+1760479629: Opening ipv4 listen socket on port 1883.
+1760479629: Opening websockets listen socket on port 9001.
+1760479629: mosquitto version 2.0.22 running
+1760479857: mosquitto version 2.0.22 terminating
+1760479857: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1760479984: mosquitto version 2.0.22 starting
+1760479984: Config loaded from /mosquitto/config/mosquitto.conf.
+1760479984: Warning: File /mosquitto/config/passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/passwd`.
+1760479984: Opening ipv4 listen socket on port 1883.
+1760479984: Opening websockets listen socket on port 9001.
+1760479984: mosquitto version 2.0.22 running
+1760480400: New connection from 172.18.0.6:52658 on port 1883.
+1760480400: New client connected from 172.18.0.6:52658 as noderedcccee4a952161207 (p2, c1, k60, u'aluno').
+1760480555: Client noderedcccee4a952161207 disconnected.
+1760480556: mosquitto version 2.0.22 terminating
+1760480556: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1760480815: mosquitto version 2.0.22 starting
+1760480815: Config loaded from /mosquitto/config/mosquitto.conf.
+1760480815: Warning: File /mosquitto/config/passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/passwd`.
+1760480815: Opening ipv4 listen socket on port 1883.
+1760480815: Opening websockets listen socket on port 9001.
+1760480815: mosquitto version 2.0.22 running
+1760480821: New connection from 172.18.0.5:40194 on port 1883.
+1760480821: New client connected from 172.18.0.5:40194 as nodered34cb1386e9987d33 (p2, c1, k60, u'aluno').
+1760480822: New connection from 172.18.0.6:41424 on port 1883.
+1760480822: New client connected from 172.18.0.6:41424 as nodered8abe76bbcd31d58f (p2, c1, k60, u'aluno').
+1760480823: Client nodered34cb1386e9987d33 disconnected.
+1760480823: New connection from 172.18.0.5:40202 on port 1883.
+1760480823: New client connected from 172.18.0.5:40202 as noderedbd34f282043fafd4 (p2, c1, k60, u'aluno').
+1760481928: Client noderedbd34f282043fafd4 disconnected.
+1760481928: New connection from 172.18.0.5:39556 on port 1883.
+1760481928: New client connected from 172.18.0.5:39556 as noderedb531f60a59df900f (p2, c1, k60, u'aluno').
+1760482015: New client connected from 172.18.0.1:36386 as pub-b8c3ac8ac04b3 (p2, c1, k60, u'aluno').
+1760482239: Client noderedb531f60a59df900f disconnected.
+1760482239: New connection from 172.18.0.5:44998 on port 1883.
+1760482239: New client connected from 172.18.0.5:44998 as nodered7c0b44606943ba33 (p2, c1, k60, u'aluno').
+1760482409: Client nodered8abe76bbcd31d58f disconnected.
+1760482409: Client nodered7c0b44606943ba33 disconnected.
+1760482410: mosquitto version 2.0.22 terminating
+1760482410: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1760482410: Client pub-b8c3ac8ac04b3 closed its connection.
+1760484601: mosquitto version 2.0.22 starting
+1760484601: Config loaded from /mosquitto/config/mosquitto.conf.
+1760484601: Warning: File /mosquitto/config/passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/passwd`.
+1760484601: Opening ipv4 listen socket on port 1883.
+1760484601: Opening websockets listen socket on port 9001.
+1760484601: mosquitto version 2.0.22 running
+1760484602: New client connected from 172.18.0.1:43096 as pub-b8c3ac8ac04b3 (p2, c1, k60, u'aluno').
+1760484606: New connection from 172.18.0.5:48780 on port 1883.
+1760484606: New client connected from 172.18.0.5:48780 as nodered54c0a3bd6586e06c (p2, c1, k60, u'aluno').
+1760484607: New connection from 172.18.0.6:47134 on port 1883.
+1760484607: New client connected from 172.18.0.6:47134 as nodered0a9348210f7839a6 (p2, c1, k60, u'aluno').
+1760484612: Client nodered54c0a3bd6586e06c disconnected.
+1760484612: New connection from 172.18.0.5:58272 on port 1883.
+1760484612: New client connected from 172.18.0.5:58272 as nodered7b42d3fd5fd08840 (p2, c1, k60, u'aluno').
+1760485248: Client nodered7b42d3fd5fd08840 disconnected.
+1760485248: New connection from 172.18.0.5:50204 on port 1883.
+1760485248: New connection from 172.18.0.5:50212 on port 1883.
+1760485248: New client connected from 172.18.0.5:50204 as nodered7cd68c331efeea8f (p2, c1, k60, u'aluno').
+1760485248: Client nodered42c2a5bd3a881876 disconnected, not authorised.
+1760485263: New connection from 172.18.0.5:47482 on port 1883.
+1760485263: Client nodered42c2a5bd3a881876 disconnected, not authorised.
+1760485279: New connection from 172.18.0.5:39292 on port 1883.
+1760485279: Client nodered42c2a5bd3a881876 disconnected, not authorised.
+1760485288: Client nodered7cd68c331efeea8f disconnected.
+1760485288: New connection from 172.18.0.5:39300 on port 1883.
+1760485288: New connection from 172.18.0.5:39304 on port 1883.
+1760485288: New client connected from 172.18.0.5:39300 as noderedadfbd851bdb79844 (p2, c1, k60, u'aluno').
+1760485288: Client nodereda4b58351a4271f5e disconnected, not authorised.
+1760485303: New connection from 172.18.0.5:54684 on port 1883.
+1760485303: Client nodereda4b58351a4271f5e disconnected, not authorised.
+1760485318: New connection from 172.18.0.5:34276 on port 1883.
+1760485318: Client nodereda4b58351a4271f5e disconnected, not authorised.
+1760485333: New connection from 172.18.0.5:54464 on port 1883.
+1760485333: Client nodereda4b58351a4271f5e disconnected, not authorised.
+1760485348: New connection from 172.18.0.5:55440 on port 1883.
+1760485348: Client nodereda4b58351a4271f5e disconnected, not authorised.
+1760485358: Client noderedadfbd851bdb79844 disconnected.
+1760485358: New connection from 172.18.0.5:55446 on port 1883.
+1760485358: New connection from 172.18.0.5:55452 on port 1883.
+1760485358: New client connected from 172.18.0.5:55446 as nodered01104e7a0f403ca2 (p2, c1, k60, u'aluno').
+1760485358: Client nodered472b84f3aa830645 disconnected, not authorised.
+1760485373: New connection from 172.18.0.5:35626 on port 1883.
+1760485373: Client nodered472b84f3aa830645 disconnected, not authorised.
+1760485388: New connection from 172.18.0.5:42322 on port 1883.
+1760485388: Client nodered472b84f3aa830645 disconnected, not authorised.
+1760485400: Client nodered01104e7a0f403ca2 disconnected.
+1760485400: Client nodered0a9348210f7839a6 disconnected.
+1760485401: mosquitto version 2.0.22 terminating
+1760485401: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1760485401: Client pub-b8c3ac8ac04b3 closed its connection.
+1760485529: mosquitto version 2.0.22 starting
+1760485529: Config loaded from /mosquitto/config/mosquitto.conf.
+1760485529: Warning: File /mosquitto/config/passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/passwd`.
+1760485529: Opening ipv4 listen socket on port 1883.
+1760485529: Opening websockets listen socket on port 9001.
+1760485529: mosquitto version 2.0.22 running
+1760485530: New client connected from 172.18.0.1:49786 as pub-b8c3ac8ac04b3 (p2, c1, k60, u'aluno').
+1760485535: New connection from 172.18.0.6:38168 on port 1883.
+1760485535: New connection from 172.18.0.6:38184 on port 1883.
+1760485535: New client connected from 172.18.0.6:38168 as nodered20445fd56cceb66d (p2, c1, k60, u'aluno').
+1760485535: Client nodered1a86f8c24fd06f44 disconnected, not authorised.
+1760485535: New connection from 172.18.0.5:35410 on port 1883.
+1760485535: New client connected from 172.18.0.5:35410 as noderedf895e472b26ed5b1 (p2, c1, k60, u'aluno').
+1760485550: New connection from 172.18.0.6:47918 on port 1883.
+1760485550: Client nodered1a86f8c24fd06f44 disconnected, not authorised.
+1760485565: New connection from 172.18.0.6:54130 on port 1883.
+1760485565: Client nodered1a86f8c24fd06f44 disconnected, not authorised.
+1760485577: Client nodered20445fd56cceb66d disconnected.
+1760485577: New connection from 172.18.0.6:60900 on port 1883.
+1760485577: New connection from 172.18.0.6:60910 on port 1883.
+1760485577: New client connected from 172.18.0.6:60900 as noderedbe0d398b7ecd446f (p2, c1, k60, u'aluno').
+1760485577: Client nodered6d5facfafe8ad907 disconnected, not authorised.
+1760485592: New connection from 172.18.0.6:35004 on port 1883.
+1760485592: Client nodered6d5facfafe8ad907 disconnected, not authorised.
+1760485607: New connection from 172.18.0.6:50334 on port 1883.
+1760485607: Client nodered6d5facfafe8ad907 disconnected, not authorised.
+1760485622: New connection from 172.18.0.6:42628 on port 1883.
+1760485622: Client nodered6d5facfafe8ad907 disconnected, not authorised.
+1760485637: New connection from 172.18.0.6:39742 on port 1883.
+1760485637: Client nodered6d5facfafe8ad907 disconnected, not authorised.
+1760485652: New connection from 172.18.0.6:42482 on port 1883.
+1760485652: Client nodered6d5facfafe8ad907 disconnected, not authorised.
+1760485667: New connection from 172.18.0.6:35520 on port 1883.
+1760485667: Client nodered6d5facfafe8ad907 disconnected, not authorised.
+1760485682: New connection from 172.18.0.6:41056 on port 1883.
+1760485682: Client nodered6d5facfafe8ad907 disconnected, not authorised.
+1760485697: New connection from 172.18.0.6:56678 on port 1883.
+1760485697: Client nodered6d5facfafe8ad907 disconnected, not authorised.
+1760485712: New connection from 172.18.0.6:41588 on port 1883.
+1760485712: Client nodered6d5facfafe8ad907 disconnected, not authorised.
+1760485727: New connection from 172.18.0.6:50376 on port 1883.
+1760485727: Client nodered6d5facfafe8ad907 disconnected, not authorised.
+1760485742: New connection from 172.18.0.6:37608 on port 1883.
+1760485742: Client nodered6d5facfafe8ad907 disconnected, not authorised.
+1760485757: New connection from 172.18.0.6:47902 on port 1883.
+1760485757: Client nodered6d5facfafe8ad907 disconnected, not authorised.
+1760485768: Client noderedf895e472b26ed5b1 disconnected.
+1760485768: Client noderedbe0d398b7ecd446f disconnected.
+1760485769: mosquitto version 2.0.22 terminating
+1760485769: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1760485769: Client pub-b8c3ac8ac04b3 closed its connection.
+1760485788: mosquitto version 2.0.22 starting
+1760485788: Config loaded from /mosquitto/config/mosquitto.conf.
+1760485788: Warning: File /mosquitto/config/passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/passwd`.
+1760485788: Opening ipv4 listen socket on port 1883.
+1760485788: Opening websockets listen socket on port 9001.
+1760485788: mosquitto version 2.0.22 running
+1760485788: New client connected from 172.18.0.1:49272 as pub-b8c3ac8ac04b3 (p2, c1, k60, u'aluno').
+1760485798: New connection from 172.18.0.5:42848 on port 1883.
+1760485798: New connection from 172.18.0.5:42858 on port 1883.
+1760485798: New client connected from 172.18.0.5:42848 as nodereddb948041206e4eae (p2, c1, k60, u'aluno').
+1760485798: Client nodered755dc13063a16377 disconnected, not authorised.
+1760485798: New connection from 172.18.0.6:51632 on port 1883.
+1760485798: New client connected from 172.18.0.6:51632 as nodered2c26da42d268ed46 (p2, c1, k60, u'aluno').
+1760485813: New connection from 172.18.0.5:39108 on port 1883.
+1760485813: Client nodered755dc13063a16377 disconnected, not authorised.
+1760485826: Client nodereddb948041206e4eae disconnected.
+1760485826: New connection from 172.18.0.5:57974 on port 1883.
+1760485826: New connection from 172.18.0.5:57984 on port 1883.
+1760485826: New client connected from 172.18.0.5:57974 as noderedae579fe471b2953d (p2, c1, k60, u'aluno').
+1760485826: Client nodered204d1b70d8c29739 disconnected, not authorised.
+1760485841: New connection from 172.18.0.5:58446 on port 1883.
+1760485841: Client nodered204d1b70d8c29739 disconnected, not authorised.
+1760485856: New connection from 172.18.0.5:60330 on port 1883.
+1760485856: Client nodered204d1b70d8c29739 disconnected, not authorised.
+1760485871: New connection from 172.18.0.5:34080 on port 1883.
+1760485871: Client nodered204d1b70d8c29739 disconnected, not authorised.
+1760485886: New connection from 172.18.0.5:58114 on port 1883.
+1760485886: Client nodered204d1b70d8c29739 disconnected, not authorised.
+1760485893: Client noderedae579fe471b2953d disconnected.
+1760485893: Client nodered2c26da42d268ed46 disconnected.
+1760485894: mosquitto version 2.0.22 terminating
+1760485894: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1760485894: Client pub-b8c3ac8ac04b3 closed its connection.
+1760486057: mosquitto version 2.0.22 starting
+1760486057: Config loaded from /mosquitto/config/mosquitto.conf.
+1760486057: Warning: File /mosquitto/config/passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/passwd`.
+1760486057: Opening ipv4 listen socket on port 1883.
+1760486057: Opening websockets listen socket on port 9001.
+1760486057: mosquitto version 2.0.22 running
+1760486058: New client connected from 172.18.0.1:60500 as pub-b8c3ac8ac04b3 (p2, c1, k60, u'aluno').
+1760486076: New connection from 172.18.0.5:37344 on port 1883.
+1760486076: New connection from 172.18.0.5:37350 on port 1883.
+1760486076: New client connected from 172.18.0.5:37344 as nodered2ff67ab9afc2637a (p2, c1, k60, u'aluno').
+1760486076: Client nodereda22dc672ee3954a3 disconnected, not authorised.
+1760486076: New connection from 172.18.0.6:44434 on port 1883.
+1760486076: New client connected from 172.18.0.6:44434 as nodered6e891f94cadcfe3e (p2, c1, k60, u'aluno').
+1760486087: Client nodered6e891f94cadcfe3e disconnected.
+1760486087: Client nodered2ff67ab9afc2637a disconnected.
+1760486088: mosquitto version 2.0.22 terminating
+1760486088: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1760486088: Client pub-b8c3ac8ac04b3 closed its connection.
+1760486332: mosquitto version 2.0.22 starting
+1760486332: Config loaded from /mosquitto/config/mosquitto.conf.
+1760486332: Warning: File /mosquitto/config/passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/passwd`.
+1760486332: Opening ipv4 listen socket on port 1883.
+1760486332: Opening websockets listen socket on port 9001.
+1760486332: mosquitto version 2.0.22 running
+1760486332: New client connected from 172.18.0.1:37310 as pub-b8c3ac8ac04b3 (p2, c1, k60, u'aluno').
+1760486337: New connection from 172.18.0.5:52434 on port 1883.
+1760486337: New connection from 172.18.0.5:52448 on port 1883.
+1760486337: New connection from 172.18.0.6:43754 on port 1883.
+1760486337: New client connected from 172.18.0.5:52434 as nodered778a3d4ade9014b0 (p2, c1, k60, u'aluno').
+1760486337: Client nodered39c76bbab8a7783e disconnected, not authorised.
+1760486337: New client connected from 172.18.0.6:43754 as nodered9c21b0f0e638aa63 (p2, c1, k60, u'aluno').
+1760486352: New connection from 172.18.0.5:54340 on port 1883.
+1760486352: Client nodered39c76bbab8a7783e disconnected, not authorised.
+1760486367: New connection from 172.18.0.5:50146 on port 1883.
+1760486367: Client nodered39c76bbab8a7783e disconnected, not authorised.
+1760486382: New connection from 172.18.0.5:51946 on port 1883.
+1760486382: Client nodered39c76bbab8a7783e disconnected, not authorised.
+1760486397: New connection from 172.18.0.5:46988 on port 1883.
+1760486397: Client nodered39c76bbab8a7783e disconnected, not authorised.
+1760486412: New connection from 172.18.0.5:45496 on port 1883.
+1760486412: Client nodered39c76bbab8a7783e disconnected, not authorised.
+1760486427: New connection from 172.18.0.5:52062 on port 1883.
+1760486427: Client nodered39c76bbab8a7783e disconnected, not authorised.
+1760486441: Client nodered778a3d4ade9014b0 disconnected.
+1760486441: New connection from 172.18.0.5:34270 on port 1883.
+1760486441: New connection from 172.18.0.5:34278 on port 1883.
+1760486441: New client connected from 172.18.0.5:34270 as noderedf36d54c941fda7a8 (p2, c1, k60, u'aluno').
+1760486441: Client nodered985ffb46f9379447 disconnected, not authorised.
+1760486456: New connection from 172.18.0.5:38352 on port 1883.
+1760486456: Client nodered985ffb46f9379447 disconnected, not authorised.
+1760486471: New connection from 172.18.0.5:52144 on port 1883.
+1760486471: Client nodered985ffb46f9379447 disconnected, not authorised.
+1760486486: New connection from 172.18.0.5:58764 on port 1883.
+1760486486: Client nodered985ffb46f9379447 disconnected, not authorised.
+1760486501: New connection from 172.18.0.5:46130 on port 1883.
+1760486501: Client nodered985ffb46f9379447 disconnected, not authorised.
+1760486516: New connection from 172.18.0.5:59750 on port 1883.
+1760486516: Client nodered985ffb46f9379447 disconnected, not authorised.
+1760486531: New connection from 172.18.0.5:51330 on port 1883.
+1760486531: Client nodered985ffb46f9379447 disconnected, not authorised.
+1760486545: Client noderedf36d54c941fda7a8 disconnected.
+1760486546: New connection from 172.18.0.5:53724 on port 1883.
+1760486546: New connection from 172.18.0.5:53726 on port 1883.
+1760486546: New client connected from 172.18.0.5:53724 as nodered7d478d7a915c14be (p2, c1, k60, u'aluno').
+1760486546: Client nodered0a3c689b4109f2fc disconnected, not authorised.
+1760486561: New connection from 172.18.0.5:46706 on port 1883.
+1760486561: Client nodered0a3c689b4109f2fc disconnected, not authorised.
+1760486576: New connection from 172.18.0.5:41312 on port 1883.
+1760486576: Client nodered0a3c689b4109f2fc disconnected, not authorised.
+1760486591: New connection from 172.18.0.5:56974 on port 1883.
+1760486591: Client nodered0a3c689b4109f2fc disconnected, not authorised.
+1760486606: New connection from 172.18.0.5:55016 on port 1883.
+1760486606: Client nodered0a3c689b4109f2fc disconnected, not authorised.
+1760486621: New connection from 172.18.0.5:54766 on port 1883.
+1760486621: Client nodered0a3c689b4109f2fc disconnected, not authorised.
+1760486629: Client nodered7d478d7a915c14be disconnected.
+1760486629: Client nodered9c21b0f0e638aa63 disconnected.
+1760486630: mosquitto version 2.0.22 terminating
+1760486630: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1760486630: Client pub-b8c3ac8ac04b3 closed its connection.
+1760486867: mosquitto version 2.0.22 starting
+1760486867: Config loaded from /mosquitto/config/mosquitto.conf.
+1760486867: Warning: File /mosquitto/config/passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/passwd`.
+1760486867: Opening ipv4 listen socket on port 1883.
+1760486867: Opening websockets listen socket on port 9001.
+1760486867: mosquitto version 2.0.22 running
+1760486868: New client connected from 172.18.0.1:49968 as pub-b8c3ac8ac04b3 (p2, c1, k60, u'aluno').
+1760486874: New connection from 172.18.0.5:53780 on port 1883.
+1760486874: New connection from 172.18.0.5:53782 on port 1883.
+1760486874: New client connected from 172.18.0.5:53780 as noderedddf983faa937a55f (p2, c1, k60, u'aluno').
+1760486874: Client noderedd4ff3ff4072e1620 disconnected, not authorised.
+1760486874: New connection from 172.18.0.6:50830 on port 1883.
+1760486874: New client connected from 172.18.0.6:50830 as nodereda7aa2e9c2666bf4e (p2, c1, k60, u'aluno').
+1760486880: Client noderedddf983faa937a55f disconnected.
+1760486880: New connection from 172.18.0.5:55576 on port 1883.
+1760486880: New connection from 172.18.0.5:55578 on port 1883.
+1760486880: New client connected from 172.18.0.5:55576 as nodered9ab276266280d651 (p2, c1, k60, u'aluno').
+1760486880: Client noderedfe977873362a1408 disconnected, not authorised.
+1760486895: New connection from 172.18.0.5:45894 on port 1883.
+1760486895: Client noderedfe977873362a1408 disconnected, not authorised.
+1760486910: New connection from 172.18.0.5:54366 on port 1883.
+1760486910: Client noderedfe977873362a1408 disconnected, not authorised.
+1760486925: New connection from 172.18.0.5:40238 on port 1883.
+1760486925: Client noderedfe977873362a1408 disconnected, not authorised.
+1760486940: New connection from 172.18.0.5:51822 on port 1883.
+1760486940: Client noderedfe977873362a1408 disconnected, not authorised.
+1760486947: Client nodered9ab276266280d651 disconnected.
+1760486947: New connection from 172.18.0.5:51824 on port 1883.
+1760486947: New connection from 172.18.0.5:51830 on port 1883.
+1760486947: New client connected from 172.18.0.5:51824 as noderedddda3b2e3d39a7a5 (p2, c1, k60, u'aluno').
+1760486947: Client noderedd93f342b7aa39636 disconnected, not authorised.
+1760486962: New connection from 172.18.0.5:48560 on port 1883.
+1760486962: Client noderedd93f342b7aa39636 disconnected, not authorised.
+1760486977: New connection from 172.18.0.5:45932 on port 1883.
+1760486977: Client noderedd93f342b7aa39636 disconnected, not authorised.
+1760486988: Client nodereda7aa2e9c2666bf4e disconnected.
+1760486988: Client noderedddda3b2e3d39a7a5 disconnected.
+1760486989: mosquitto version 2.0.22 terminating
+1760486989: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1760486989: Client pub-b8c3ac8ac04b3 closed its connection.
