@@ -1,0 +1,308 @@
+[
+    {
+        "id": "88d3cc6329633778",
+        "type": "tab",
+        "label": "Fluxo 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "d0fcd3b0da064258",
+        "type": "mqtt-broker",
+        "name": "Mosquitto",
+        "broker": "mosquitto",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "24deba6823cf6bcc",
+        "type": "mongodb4-client",
+        "name": "",
+        "protocol": "mongodb",
+        "hostname": "mongo",
+        "port": "27017",
+        "dbName": "desi-farm",
+        "appName": "",
+        "authSource": "",
+        "authMechanism": "DEFAULT",
+        "tls": false,
+        "tlsCAFile": "",
+        "tlsCertificateKeyFile": "",
+        "tlsInsecure": false,
+        "connectTimeoutMS": "30000",
+        "socketTimeoutMS": "0",
+        "minPoolSize": "0",
+        "maxPoolSize": "100",
+        "maxIdleTimeMS": "0",
+        "uri": "",
+        "advanced": "{}",
+        "uriTabActive": "tab-uri-simple"
+    },
+    {
+        "id": "f4df64f0b4b11169",
+        "type": "postgreSQLConfig",
+        "name": "Postgres",
+        "host": "postgres",
+        "hostFieldType": "str",
+        "port": 5432,
+        "portFieldType": "num",
+        "database": "desi-farm",
+        "databaseFieldType": "str",
+        "ssl": "false",
+        "sslFieldType": "bool",
+        "applicationName": "",
+        "applicationNameType": "str",
+        "max": 10,
+        "maxFieldType": "num",
+        "idle": 1000,
+        "idleFieldType": "num",
+        "connectionTimeout": 10000,
+        "connectionTimeoutFieldType": "num",
+        "user": "admin",
+        "userFieldType": "str",
+        "password": "admin",
+        "passwordFieldType": "str"
+    },
+    {
+        "id": "d9820417056e2243",
+        "type": "mqtt in",
+        "z": "88d3cc6329633778",
+        "name": "Cadastro Device",
+        "topic": "device/+/info",
+        "qos": "2",
+        "datatype": "json",
+        "broker": "d0fcd3b0da064258",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 160,
+        "y": 180,
+        "wires": [
+            [
+                "73cff740b1580d3b"
+            ]
+        ]
+    },
+    {
+        "id": "d0280c6e7c160f91",
+        "type": "mqtt out",
+        "z": "88d3cc6329633778",
+        "name": "Envia Commando Motor",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "d0fcd3b0da064258",
+        "x": 1030,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "040dc1df569247c5",
+        "type": "mqtt in",
+        "z": "88d3cc6329633778",
+        "name": "Envio de Umidade",
+        "topic": "device/+/status/humidity",
+        "qos": "2",
+        "datatype": "json",
+        "broker": "d0fcd3b0da064258",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 170,
+        "y": 320,
+        "wires": [
+            [
+                "71b5e466d49f676d"
+            ]
+        ]
+    },
+    {
+        "id": "73cff740b1580d3b",
+        "type": "uuid",
+        "z": "88d3cc6329633778",
+        "uuidVersion": "v4",
+        "namespaceType": "",
+        "namespace": "",
+        "namespaceCustom": "",
+        "name": "",
+        "field": "payload._id",
+        "fieldType": "msg",
+        "x": 410,
+        "y": 180,
+        "wires": [
+            [
+                "8b8e47bdd071bdba"
+            ]
+        ]
+    },
+    {
+        "id": "71b5e466d49f676d",
+        "type": "uuid",
+        "z": "88d3cc6329633778",
+        "uuidVersion": "v4",
+        "namespaceType": "",
+        "namespace": "",
+        "namespaceCustom": "",
+        "name": "",
+        "field": "payload._id",
+        "fieldType": "msg",
+        "x": 410,
+        "y": 320,
+        "wires": [
+            [
+                "8980f8e763177267"
+            ]
+        ]
+    },
+    {
+        "id": "8b8e47bdd071bdba",
+        "type": "function",
+        "z": "88d3cc6329633778",
+        "name": "Process Create Device",
+        "func": "const device = {\n    $set: {\n        device_id: msg.payload.device_id,\n        model: msg.payload.model,\n        location: msg.payload.location,\n        updated_at: new Date(),\n        pump: \"off\",\n        raw: JSON.stringify(msg.payload)\n    },\n    $setOnInsert: {\n        _id: msg.payload._id,\n        created_at: new Date()\n    }\n}\n\nconst createDevice = {\n    collection: \"devices\",\n    operation: \"updateOne\",\n    payload: [\n        { device_id: msg.payload.device_id },\n        device,\n        { upsert: true }\n    ]\n}\n\nreturn createDevice;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 180,
+        "wires": [
+            [
+                "9de73b4d362ca757"
+            ]
+        ]
+    },
+    {
+        "id": "8980f8e763177267",
+        "type": "function",
+        "z": "88d3cc6329633778",
+        "name": "Process Humidity",
+        "func": "const data = msg.payload;\nconst device_id = msg.topic.split(\"/\")[1];\n\nconst readings = {\n    query: \"INSERT INTO readings (id, device_id, humidity, unit, created_at) VALUES ($1, $2, $3, $4, $5)\",\n    params: [\n        data._id,\n        device_id,\n        data.humidity,\n        data.unit,\n        new Date()\n    ]\n}\n\nlet irrigationAlert = null;\nif (data.humidity < 40) {\n    irrigationAlert = {\n        collection: \"irrigation_alerts\",\n        operation: \"insertOne\",\n        payload: {\n            _id: data._id,\n            device_id: device_id,\n            alert: \"HUMIDITY_LESS_THAN_40\",\n            created_at: new Date(),\n        }\n    }\n}\n\nlet command = {\n    topic: `device/${device_id}/cmd/pump`,\n    qos: 1,\n    retain: false,\n    payload: {\n        device_id: device_id,\n        pump: null\n    }\n}\n\nlet pumpAlerts = null;\nconst currentHours = new Date().getHours();\nif (data.humidity < 40) {\n    if ((currentHours >= 5 && currentHours < 9) || (currentHours >= 17 && currentHours < 21)) {\n        command.payload.pump = \"on\";\n    } else {\n        command.payload.pump = \"off\"\n        pumpAlerts = {\n            query: \"INSERT INTO pump_alerts (id, device_id, alert, created_at) VALUES ($1, $2, $3, $4)\",\n            params: [\n                data._id,\n                device_id,\n                \"NOT_ALLOWED_BY_TIME\",\n                new Date()\n            ]\n        }\n    }\n} else {\n    command.payload.pump = \"off\"\n}\n\nconst updateDevice = {\n    collection: \"devices\",\n    operation: \"updateOne\",\n    payload: [\n        { device_id: device_id },\n        { $set: { pump: command.payload.pump, updated_at: new Date() }}, \n    ]\n}\n\nreturn [null, irrigationAlert, readings, pumpAlerts, command];",
+        "outputs": 5,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 320,
+        "wires": [
+            [
+                "9de73b4d362ca757"
+            ],
+            [
+                "3585beec5d03687e"
+            ],
+            [
+                "4b453d851e33a7fb"
+            ],
+            [
+                "1545a61ef52b2ea9"
+            ],
+            [
+                "d0280c6e7c160f91"
+            ]
+        ]
+    },
+    {
+        "id": "4b453d851e33a7fb",
+        "type": "postgresql",
+        "z": "88d3cc6329633778",
+        "name": "DesiFarm -> Readings",
+        "query": "SELECT * FROM ;",
+        "postgreSQLConfig": "f4df64f0b4b11169",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 1020,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9de73b4d362ca757",
+        "type": "mongodb4",
+        "z": "88d3cc6329633778",
+        "clientNode": "24deba6823cf6bcc",
+        "mode": "collection",
+        "collection": "",
+        "operation": "",
+        "output": "toArray",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "DesiFarm -> Devices",
+        "x": 1020,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3585beec5d03687e",
+        "type": "mongodb4",
+        "z": "88d3cc6329633778",
+        "clientNode": "24deba6823cf6bcc",
+        "mode": "collection",
+        "collection": "",
+        "operation": "",
+        "output": "toArray",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "DesiFarm -> Irrigation Alerts",
+        "x": 1040,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1545a61ef52b2ea9",
+        "type": "postgresql",
+        "z": "88d3cc6329633778",
+        "name": "DesiFarm -> Pump Alerts",
+        "query": "SELECT * FROM ;",
+        "postgreSQLConfig": "f4df64f0b4b11169",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 1030,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    }
+]

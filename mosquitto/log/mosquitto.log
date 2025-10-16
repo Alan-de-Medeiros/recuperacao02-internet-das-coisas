@@ -1135,3 +1135,105 @@ To fix this, use `chmod 0700 /mosquitto/config/passwd`.
 1760471544: New connection from 172.20.0.6:39108 on port 1883.
 1760471544: New client connected from 172.20.0.6:39108 as nodered3431497da9ad4fe8 (p2, c1, k60, u'aluno').
 1760473342: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1760475143: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1760475311: mosquitto version 2.0.22 terminating
+1760475311: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1760529110: mosquitto version 2.0.22 starting
+1760529110: Config loaded from /mosquitto/config/mosquitto.conf.
+1760529110: Warning: File /mosquitto/config/passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/passwd`.
+1760529110: Opening ipv4 listen socket on port 1883.
+1760529110: Opening websockets listen socket on port 9001.
+1760529110: mosquitto version 2.0.22 running
+1760529112: New connection from 172.20.0.4:59920 on port 1883.
+1760529112: New client connected from 172.20.0.4:59920 as noderedcadbdbfb624e3d87 (p2, c1, k60, u'aluno').
+1760530910: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1760532601: mosquitto version 2.0.22 terminating
+1760532601: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1760532605: mosquitto version 2.0.22 starting
+1760532605: Config loaded from /mosquitto/config/mosquitto.conf.
+1760532605: Warning: File /mosquitto/config/passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/passwd`.
+1760532605: Opening ipv4 listen socket on port 1883.
+1760532605: Opening websockets listen socket on port 9001.
+1760532605: mosquitto version 2.0.22 running
+1760532606: New connection from 172.20.0.2:48350 on port 1883.
+1760532606: New client connected from 172.20.0.2:48350 as noderedecb8fa6ac9651038 (p2, c1, k60, u'aluno').
+1760534405: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1760536206: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1760538007: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1760539808: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1760541609: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1760543410: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1760545211: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1760547012: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1760548813: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1760550614: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1760552416: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1760554216: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1760556017: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1760557818: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1760559619: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1760561420: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1760563221: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1760565022: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1760566823: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1760568624: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1760570425: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1760572226: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1760574027: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1760575828: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1760577629: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1760579431: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1760581231: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1760581723: mosquitto version 2.0.22 terminating
+1760581723: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1760615604: mosquitto version 2.0.22 starting
+1760615604: Config loaded from /mosquitto/config/mosquitto.conf.
+1760615604: Warning: File /mosquitto/config/passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/passwd`.
+1760615604: Opening ipv4 listen socket on port 1883.
+1760615604: Opening websockets listen socket on port 9001.
+1760615604: mosquitto version 2.0.22 running
+1760615605: New connection from 172.20.0.2:43798 on port 1883.
+1760615605: New client connected from 172.20.0.2:43798 as noderedca375c5b70af5cdf (p2, c1, k60, u'aluno').
+1760617404: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1760618781: New connection from 172.20.0.5:33376 on port 1883.
+1760618781: New client connected from 172.20.0.5:33376 as noderedd31ad33f5658f2e4 (p2, c1, k60, u'aluno').
+1760618796: New client connected from 172.20.0.1:48292 as pub-fac33c61afd35 (p2, c1, k60, u'aluno').
+1760618869: Client noderedd31ad33f5658f2e4 disconnected.
+1760618869: New connection from 172.20.0.5:50642 on port 1883.
+1760618869: New client connected from 172.20.0.5:50642 as nodered46e4db09cd490f90 (p2, c1, k60, u'aluno').
+1760619205: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1760620630: Client nodered46e4db09cd490f90 disconnected.
+1760620630: New connection from 172.20.0.5:48210 on port 1883.
+1760620630: New client connected from 172.20.0.5:48210 as nodered0f0c90f5b8da6642 (p2, c1, k60, u'aluno').
+1760620655: New client connected from 172.20.0.1:35452 as pub-d87956d06419 (p2, c1, k60, u'aluno').
+1760620963: Client nodered0f0c90f5b8da6642 disconnected.
+1760620963: New connection from 172.20.0.5:57942 on port 1883.
+1760620963: New client connected from 172.20.0.5:57942 as noderedf06ca28441924ae1 (p2, c1, k60, u'aluno').
+1760621007: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1760621689: Client noderedf06ca28441924ae1 disconnected.
+1760621689: New connection from 172.20.0.5:57014 on port 1883.
+1760621689: New client connected from 172.20.0.5:57014 as nodered27526ba9c01836cc (p2, c1, k60, u'aluno').
+1760622807: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1760623015: Client nodered27526ba9c01836cc disconnected.
+1760623015: New connection from 172.20.0.5:39642 on port 1883.
+1760623015: New client connected from 172.20.0.5:39642 as nodered87b5ae05bb77042f (p2, c1, k60, u'aluno').
+1760623131: Client nodered87b5ae05bb77042f disconnected.
+1760623131: New connection from 172.20.0.5:48902 on port 1883.
+1760623131: New client connected from 172.20.0.5:48902 as noderede9cad74077ed542b (p2, c1, k60, u'aluno').
+1760624491: Client noderede9cad74077ed542b disconnected.
+1760624491: New connection from 172.20.0.5:33920 on port 1883.
+1760624491: New client connected from 172.20.0.5:33920 as nodered510886e909f8782f (p2, c1, k60, u'aluno').
+1760624608: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1760624649: New client connected from 172.20.0.1:50706 as sub-5bcbb035d2b3a8 (p2, c1, k60, u'aluno').
+1760624922: Client nodered510886e909f8782f disconnected.
+1760624922: New connection from 172.20.0.5:46460 on port 1883.
+1760624922: New client connected from 172.20.0.5:46460 as noderedd665de373152a074 (p2, c1, k60, u'aluno').
+1760626409: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1760628210: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1760630011: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1760631209: Client noderedd665de373152a074 disconnected.
+1760631209: New connection from 172.20.0.5:36924 on port 1883.
+1760631209: New client connected from 172.20.0.5:36924 as nodered0460a64796625d14 (p2, c1, k60, u'aluno').
